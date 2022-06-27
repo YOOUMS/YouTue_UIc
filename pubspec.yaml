@@ -65,7 +65,20 @@ flutter:
     - assets/search.png
     - assets/user.png
     - assets/video1.jpg
+    - assets/video2.jpg
+    - assets/video3.jpg
+    - assets/video4.jpg
+    - assets/video5.jpg
+    - assets/video6.jpg
+
     - assets/icon1.jpg
+    - assets/icon2.jpg
+    - assets/icon3.jpg
+    - assets/icon4.jpg
+    - assets/icon5.jpg
+    - assets/icon6.jpg
+
+    
 
     # - images/a_dot_burr.jpeg
     # - images/a_dot_ham.jpeg
