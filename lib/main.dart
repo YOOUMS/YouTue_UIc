@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:youtube_ui/homePage.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: HomePage(),
     debugShowCheckedModeBanner: false,
   ));

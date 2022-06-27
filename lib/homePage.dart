@@ -124,7 +124,7 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Wrong Information about programming",
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -194,7 +194,7 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
                                 "My Dream Desk Setup 2002 Tour Two Years Later",
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -264,7 +264,7 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
                                 "ReactJS personal portfolio website tutorial",
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -334,7 +334,7 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Fuck your protein, fuck your gemmate ",
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -404,7 +404,7 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Day in life of a software developer ",
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -474,15 +474,15 @@ class HomePage extends StatelessWidget {
                         Flexible(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 overflow: TextOverflow.ellipsis,
-                                "windows 11 is trash don't install it , watch now before didi",
+                                "windows 11 is trash don't install it , watch now before did",
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
                                 child: const Text(
-                                  "ElZero Web School . 114k views . .1 month ago ",
+                                  "ElZero Web School . 114k views . 1 month ago ",
                                   style: TextStyle(
                                       fontSize: 12,
                                       color:
