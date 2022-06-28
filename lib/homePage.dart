@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 19, 17, 17),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Container(
@@ -14,10 +15,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  decoration: const BoxDecoration(
-                      border: Border(
-                          bottom: BorderSide(
-                              color: Color.fromARGB(255, 153, 149, 149)))),
+                  decoration: const BoxDecoration(),
                   child: Row(
                     children: [
                       Container(
@@ -32,7 +30,7 @@ class HomePage extends StatelessWidget {
                         child: const Text(
                           "YouTube",
                           style: TextStyle(
-                              color: Colors.black,
+                              color: Color.fromARGB(255, 255, 255, 255),
                               fontWeight: FontWeight.bold,
                               fontSize: 20),
                         ),
@@ -127,7 +125,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Wrong Information about programming",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
@@ -197,7 +197,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "My Dream Desk Setup 2002 Tour Two Years Later",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
@@ -267,7 +269,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "ReactJS personal portfolio website tutorial",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
@@ -337,7 +341,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Fuck your protein, fuck your gemmate ",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
@@ -407,7 +413,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "Day in life of a software developer ",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
@@ -477,7 +485,9 @@ class HomePage extends StatelessWidget {
                               Text(
                                 overflow: TextOverflow.ellipsis,
                                 "windows 11 is trash don't install it , watch now before did",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 5),
