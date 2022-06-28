@@ -14,65 +14,62 @@ class HomePage extends StatelessWidget {
             margin: const EdgeInsets.only(top: 30),
             child: Column(
               children: [
-                Container(
-                  decoration: const BoxDecoration(),
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/youtube.png"))),
+                Row(
+                  children: [
+                    Container(
+                      width: 40,
+                      height: 40,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage("assets/youtube.png"))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 10, bottom: 5),
+                      child: const Text(
+                        "YouTube",
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 255, 255, 255),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20),
                       ),
-                      Container(
-                        margin: const EdgeInsets.only(left: 10, bottom: 5),
-                        child: const Text(
-                          "YouTube",
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 255, 255),
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20),
-                        ),
-                      ),
-                      const Spacer(
-                        flex: 1,
-                      ),
-                      Container(
-                        margin: const EdgeInsets.only(right: 10),
-                        width: 25,
-                        height: 25,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/radio.png"))),
-                      ),
-                      Container(
-                        margin: const EdgeInsets.only(right: 10),
-                        width: 25,
-                        height: 25,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/bell.png"))),
-                      ),
-                      Container(
-                        margin: const EdgeInsets.only(right: 10),
-                        width: 25,
-                        height: 25,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/search.png"))),
-                      ),
-                      Container(
-                        width: 25,
-                        height: 25,
-                        margin: const EdgeInsets.only(right: 10),
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            image: const DecorationImage(
-                                image: AssetImage("assets/user.png"))),
-                      )
-                    ],
-                  ),
+                    ),
+                    const Spacer(
+                      flex: 1,
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(right: 10),
+                      width: 25,
+                      height: 25,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage("assets/radio.png"))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(right: 10),
+                      width: 25,
+                      height: 25,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage("assets/bell.png"))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(right: 10),
+                      width: 25,
+                      height: 25,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage("assets/search.png"))),
+                    ),
+                    Container(
+                      width: 25,
+                      height: 25,
+                      margin: const EdgeInsets.only(right: 10),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          image: const DecorationImage(
+                              image: AssetImage("assets/user.png"))),
+                    )
+                  ],
                 ),
                 Column(
                   children: [
@@ -111,7 +108,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
@@ -183,7 +180,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
@@ -255,7 +252,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
@@ -327,7 +324,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
@@ -399,7 +396,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
@@ -471,7 +468,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(
-                              top: 10, right: 15, left: 10),
+                              top: 5, right: 15, left: 10, bottom: 15),
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
